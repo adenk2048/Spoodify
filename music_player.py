@@ -104,3 +104,4 @@ r3.write(t[index]+" "+str(time.time() - last_play)+"\n")
 r2.close()
 r3.close()
 
+

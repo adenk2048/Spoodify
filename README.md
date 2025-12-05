@@ -11,8 +11,8 @@ HOW TO USE:
 3. Create a playlist (example: ABBA.txt). every file should be a .txt file type.
    In this playlist, put the name of every .mp3 file you want (example: for "DancingQueen.mp3", put DancingQueen)
    NOTE: do not put spaces in your song name! I was too lazy to work around .split()
-5. Run song_downloader and enjoy your music
-6. If you want your song history to be saved, you should close the music player before closing your shell.
+5. Run music_player and enjoy your music
+6. IMPORTANT: If you want your song history to be saved, you should close the music player before closing your shell.
 
 HOW TO CHECK SPOODIFY WRAPPED
 1. Run wrapped.py

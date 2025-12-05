@@ -8,19 +8,19 @@ pygame.mixer.init()
 
 print("Welcome to Spoodify")
 #open playlist .in file
-name = input('name of playlist (do not .in)')
+name = input('name of playlist (do not put .txt)')
 rand = input('Shuffle? (y/n)')
 
 if rand == 'y':
     rand = True
 
-r = open(name+'.in')
+r = open(name+'.txt')
 t = r.readlines()
 for i in range(len(t)-1):
     t[i] = t[i][:-1]
 
-r2 = open("1_wrapped.in","a")
-r3 = open("1_wrapped2.in","a")
+r2 = open("song_history.txt","a")
+r3 = open("song_plays.txt","a")
 
 #create screen
 screen = pygame.display.set_mode((400, 300))
@@ -103,3 +103,4 @@ r2.write(str(datetime.now())+" "+t[index]+
 r3.write(t[index]+" "+str(time.time() - last_play)+"\n")
 r2.close()
 r3.close()
+

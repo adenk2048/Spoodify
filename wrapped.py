@@ -1,5 +1,5 @@
 from collections import defaultdict
-r = open('song_history.in')
+r = open('song_plays.in')
 t = r.readlines()
 
 t = [i.split() for i in t]

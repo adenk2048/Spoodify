@@ -3,9 +3,9 @@ If used, this would be SO illegal! I sure am happy that no one would have any fu
 
 HOW TO USE:
 1. run these commands in your terminal (python must be installed):
-   pip install pygame
-   pip install mutagen
-   pip install yt-dlp
+   "pip install pygame"
+   "pip install mutagen"
+   "pip install yt-dlp"
 
 2. Run downloader to download every MP3 you need. It will probably take a long time.
 3. Create a playlist (example: ABBA.txt). every file should be a .txt file type.
